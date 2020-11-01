@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "env": {
+    "BACK_URL": "http://localhost:8000"
+  },
+  "integrationFolder": "cypress/e2e",
+  "viewportHeight": 720,
+  "viewPortWidth": 1280,
+  "experimentalFetchPolyfill": true,
+  "video": false
+}

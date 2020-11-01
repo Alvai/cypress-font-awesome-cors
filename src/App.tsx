@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +17,16 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <i
+            className="fa fa-info"
+            data-cy="info-icon"
+            aria-hidden="true"
+            style={{
+              fontSize: "25px",
+              textAlign: "center",
+              color: "rgb(255, 255, 255)",
+            }}
+          ></i>
         </a>
       </header>
     </div>
